@@ -4,27 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:foregroundTint="#673AB7">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< Updated upstream
-        android:text="Hello World!"
-=======
-        android:text="Welcome to WordPlay!"
-        android:textAlignment="center"
-        android:textColor="@color/teal_200"
-        android:textSize="48sp"
->>>>>>> Stashed changes
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-<<<<<<< Updated upstream
-=======
+    < android:id="@+id/28"="@+id/15"="@+id/" />
+
+    < android:id="@+id/29"="@+id/16"="@+id/2" />
+
+    < android:id="@+id/30"="@+id/17"="@+id/3" />
+
+    < android:id="@+id/31"="@+id/18"="@+id/4" />
+
+    < android:id="@+id/32"="@+id/19"="@+id/5" />
+
+    < android:id="@+id/33"="@+id/20"="@+id/6" />
+
+    < Updated
+        upstream
+        android:text="Hello World!"
+        android:id="@+id/7" />
+    =======
+    android:text="Welcome to WordPlay!"
+    android:textAlignment="center"
+    android:textColor="@color/teal_200"
+    android:textSize="48sp"
+    >>>>>>> Stashed changes
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    < android:id="@+id/34"="@+id/21"="@+id/8" />
+
+    < android:id="@+id/35"="@+id/22"="@+id/9" />
+
+    < android:id="@+id/36"="@+id/23"="@+id/10" />
+
+    < android:id="@+id/37"="@+id/24"="@+id/11" />
+
+    < android:id="@+id/38"="@+id/25"="@+id/12" />
+
+    < android:id="@+id/39"="@+id/26"="@+id/13" />
+
+    android:id="@+id/14"
+
+        android:id="@+id/27"
+
+        android:id="@+id/40"< Updated
+        upstream=======
+
     <Button
         android:id="@+id/button"
         android:layout_width="165dp"
@@ -36,13 +69,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="147dp"
-        android:layout_height="52dp"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
@@ -52,13 +84,15 @@
         app:layout_constraintStart_toEndOf="@+id/button" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/DarkMode"
         android:layout_width="188dp"
         android:layout_height="45dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="53dp"
         android:layout_marginBottom="32dp"
+        android:backgroundTint="#FFFFFF"
+        android:checked="false"
         android:text="Dark Mode"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,8 +109,26 @@
         android:layout_marginEnd="32dp"
         android:text="Buy now"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/switch1"
+        app:layout_constraintStart_toEndOf="@+id/DarkMode"
         app:layout_constraintTop_toTopOf="parent" />
 
->>>>>>> Stashed changes
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="442dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="206dp"
+        android:background="#FEFDFF"
+        android:text="Wellcome to WordPlay!"
+        android:textAlignment="center"
+        android:textColor="#070000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    >>>>>>> Stashed changes
 </androidx.constraintlayout.widget.ConstraintLayout>
